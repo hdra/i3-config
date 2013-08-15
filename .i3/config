@@ -187,7 +187,7 @@ bindsym $mod+Shift+F4 move workspace 9
 bindsym $mod+Shift+F5 move workspace 10
 
 # Automatic put window in last worksapce
-assign [class="rhytmbox"] 10
+assign [class="[Rr]hythmbox"] 10
 assign [class="banshee"] 10
 assign [title="KeePass Password Save"]] 10
 
@@ -200,6 +200,8 @@ for_window [class="[Gg]debi-gtk"] floating enable
 for_window [title="Open DataBase - MYPASSES.kdbx"] floating enable
 for_window [class="[Ff]ile-roller"] floating enable
 for_window [title="[Ff]ile [Oo]peration [Pp]rogress"] floating enable
+for_window [title="[Ff]ile [Oo]perations"] floating enable
+
 # Set workspaces
 workspace 6 output CRT1
 workspace 7 output CRT1
