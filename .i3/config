@@ -220,6 +220,7 @@ exec --no-startup-id dropbox start
 exec --no-startup-id sh ~/.i3/set-wall.sh
 
 # start some app
+exec --no-startup-id gnome-screensaver
 exec --no-startup-id gnome-keyring-daemon --start
 exec --no-startup-id keepass2
 
